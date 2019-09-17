@@ -1,0 +1,99 @@
+body {
+  background: rgb(11, 11, 11);
+  font-family: Sofia;
+  margin: 0;
+}
+h1 {
+  color: rgb(82, 214, 247);
+  text-align: center;
+  text-decoration-line: underline;
+}
+.name-circle {
+  /* display:none; */
+  /* width:25px; */
+  /* padding:10px; */
+  /* margin:10px; */
+  font-size: 1.1em;
+  text-align: center;
+  /* border-radius: 50%; */
+  color: orange;
+  position: fixed;
+  list-style: none;
+  z-index: 3;
+}
+.name-circle:hover {
+  cursor: pointer;
+}
+
+ul {
+  width: 300px;
+  position: relative;
+  left: 120px;
+  top: 220px;
+}
+p {
+  position: fixed;
+  z-index: -2;
+}
+
+canvas {
+  position: fixed;
+  margin: 10px;
+  top: 5px;
+  left: 4px;
+
+  /* background-color: red; */
+  z-index: -5;
+}
+li {
+  list-style-type: none;
+}
+#hide-names {
+  position: fixed;
+  bottom: 0;
+  color: red;
+}
+.transparent {
+  color: transparent;
+}
+button {
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+#form {
+  margin-top: 5%;
+  text-align: center;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  background-color: rgb(203, 203, 203);
+  padding: 20px;
+  line-height: 50px;
+  z-index: 15;
+}
+.groupName {
+  text-align: center;
+  line-height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  background: rgb(2, 54, 67);
+  color: white;
+}
+.groupName:hover {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  background: rgb(177, 177, 177);
+}
+.hideform {
+  display: none;
+}

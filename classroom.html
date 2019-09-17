@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Classroom-Relations</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="classroom.css" />
+  </head>
+  <body>
+    <h1>Relationship Chart</h1>
+
+    <canvas id="DemoCanvas" width="2000" height="2000"></canvas>
+
+    <ul id="chart">
+      <li id="classroom"></li>
+    </ul>
+    <div id="buttons">
+      <button onclick="trans()">names</button>
+      <button onclick="clearAllLines()">lines</button>
+      <button onclick="admin()">group</button>
+    </div>
+
+    <div id="form">
+      Welcome to Relationship Chart
+      <br />
+      how this works:
+      <br />
+      * to start press group. <br />
+      * choose one of the Demo Groups.<br />
+      * now you can press the names and lines button. <br />
+      * lines will show and clear all connections.<br />
+      * names will show/hide the names.<br />
+      * pressing indiviual name shows relations.<br /><br />
+
+      try it now
+    </div>
+
+    <script src="users.js"></script>
+    <script src="admin.js"></script>
+    <script src="classroom.js"></script>
+  </body>
+</html>
